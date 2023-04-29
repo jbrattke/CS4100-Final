@@ -1,0 +1,47 @@
+{
+    "name": "root",
+    "metadata": {
+        "timer_format_version": "0.1.0",
+        "start_time_seconds": "1682723663",
+        "python_version": "3.9.0 (tags/v3.9.0:9cf6752, Oct  5 2020, 15:34:40) [MSC v.1927 64 bit (AMD64)]",
+        "command_line_arguments": "J:\\Code\\mlfinalproject\\py39\\Scripts\\mlagents-learn ../ml-agents/config/ppo/WallJump.yaml --run-id=test7 --time-scale=1",
+        "mlagents_version": "0.30.0",
+        "mlagents_envs_version": "0.30.0",
+        "communication_protocol_version": "1.5.0",
+        "pytorch_version": "1.7.1+cu110",
+        "numpy_version": "1.21.2",
+        "end_time_seconds": "1682723666"
+    },
+    "total": 2.4973089999999996,
+    "count": 1,
+    "self": 0.013372899999999355,
+    "children": {
+        "run_training.setup": {
+            "total": 0.0956785,
+            "count": 1,
+            "self": 0.0956785
+        },
+        "TrainerController.start_learning": {
+            "total": 2.3882576,
+            "count": 1,
+            "self": 0.0003978000000008919,
+            "children": {
+                "TrainerController._reset_env": {
+                    "total": 2.3878494000000003,
+                    "count": 1,
+                    "self": 2.3878494000000003
+                },
+                "trainer_threads": {
+                    "total": 6.99999999298484e-07,
+                    "count": 1,
+                    "self": 6.99999999298484e-07
+                },
+                "TrainerController._save_models": {
+                    "total": 9.699999999668307e-06,
+                    "count": 1,
+                    "self": 9.699999999668307e-06
+                }
+            }
+        }
+    }
+}
