@@ -1,0 +1,65 @@
+{
+    "ObstacleCourse": {
+        "checkpoints": [
+            {
+                "steps": 499714,
+                "file_path": "results\\test5\\ObstacleCourse\\ObstacleCourse-499714.onnx",
+                "reward": 13.095872548910288,
+                "creation_time": 1682712733.4756753,
+                "auxillary_file_paths": [
+                    "results\\test5\\ObstacleCourse\\ObstacleCourse-499714.pt"
+                ]
+            },
+            {
+                "steps": 999604,
+                "file_path": "results\\test5\\ObstacleCourse\\ObstacleCourse-999604.onnx",
+                "reward": 38.58342887106396,
+                "creation_time": 1682713427.308437,
+                "auxillary_file_paths": [
+                    "results\\test5\\ObstacleCourse\\ObstacleCourse-999604.pt"
+                ]
+            },
+            {
+                "steps": 1499918,
+                "file_path": "results\\test5\\ObstacleCourse\\ObstacleCourse-1499918.onnx",
+                "reward": 14.725250244140625,
+                "creation_time": 1682714062.7683733,
+                "auxillary_file_paths": [
+                    "results\\test5\\ObstacleCourse\\ObstacleCourse-1499918.pt"
+                ]
+            },
+            {
+                "steps": 1999577,
+                "file_path": "results\\test5\\ObstacleCourse\\ObstacleCourse-1999577.onnx",
+                "reward": 55.560137091456234,
+                "creation_time": 1682714675.2944005,
+                "auxillary_file_paths": [
+                    "results\\test5\\ObstacleCourse\\ObstacleCourse-1999577.pt"
+                ]
+            },
+            {
+                "steps": 2364129,
+                "file_path": "results\\test5\\ObstacleCourse\\ObstacleCourse-2364129.onnx",
+                "reward": 11.782773971557617,
+                "creation_time": 1682715118.46251,
+                "auxillary_file_paths": [
+                    "results\\test5\\ObstacleCourse\\ObstacleCourse-2364129.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 2364129,
+            "file_path": "results\\test5\\ObstacleCourse.onnx",
+            "reward": 11.782773971557617,
+            "creation_time": 1682715118.46251,
+            "auxillary_file_paths": [
+                "results\\test5\\ObstacleCourse\\ObstacleCourse-2364129.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.30.0",
+        "torch_version": "1.7.1+cu110"
+    }
+}
