@@ -1,0 +1,47 @@
+{
+    "ObstacleCourse": {
+        "checkpoints": [
+            {
+                "steps": 499970,
+                "file_path": "results\\test3v2\\ObstacleCourse\\ObstacleCourse-499970.onnx",
+                "reward": 8.840364027016735,
+                "creation_time": 1682662282.6478832,
+                "auxillary_file_paths": [
+                    "results\\test3v2\\ObstacleCourse\\ObstacleCourse-499970.pt"
+                ]
+            },
+            {
+                "steps": 999993,
+                "file_path": "results\\test3v2\\ObstacleCourse\\ObstacleCourse-999993.onnx",
+                "reward": 8.649831840606428,
+                "creation_time": 1682663026.976117,
+                "auxillary_file_paths": [
+                    "results\\test3v2\\ObstacleCourse\\ObstacleCourse-999993.pt"
+                ]
+            },
+            {
+                "steps": 1215841,
+                "file_path": "results\\test3v2\\ObstacleCourse\\ObstacleCourse-1215841.onnx",
+                "reward": null,
+                "creation_time": 1682663371.4556973,
+                "auxillary_file_paths": [
+                    "results\\test3v2\\ObstacleCourse\\ObstacleCourse-1215841.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 1215841,
+            "file_path": "results\\test3v2\\ObstacleCourse.onnx",
+            "reward": null,
+            "creation_time": 1682663371.4556973,
+            "auxillary_file_paths": [
+                "results\\test3v2\\ObstacleCourse\\ObstacleCourse-1215841.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.30.0",
+        "torch_version": "1.7.1+cu110"
+    }
+}
